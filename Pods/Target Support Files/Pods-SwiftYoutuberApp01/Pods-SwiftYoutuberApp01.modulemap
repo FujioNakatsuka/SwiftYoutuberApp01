@@ -1,0 +1,6 @@
+framework module Pods_SwiftYoutuberApp01 {
+  umbrella header "Pods-SwiftYoutuberApp01-umbrella.h"
+
+  export *
+  module * { export * }
+}
