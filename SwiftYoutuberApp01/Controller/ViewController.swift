@@ -44,7 +44,10 @@ class ViewController: SegementSlideDefaultViewController {
     
     override var titlesInSwitcher: [String]{
  
-        return ["ナラティブブック","COVID-19","Alzheimer's","remote care","telemedicine","guardianship"]
+//        return ["ナラティブブック","COVID-19","Alzheimer's","remote care","telemedicine","guardianship"]
+        
+        return ["乃木坂46","欅坂46","日向坂46","iZ*one","twice","rocket girls 101"]
+        
  
     }
     

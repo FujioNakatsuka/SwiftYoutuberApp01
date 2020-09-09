@@ -90,7 +90,7 @@ class Page6ViewController: UITableViewController,SegementSlideContentScrollViewD
  
     func getData(){
         //リクエストを送る。JSON解析を行う。値が返ってくるので、for文で全て配列に入れる
-         var text =  "https://www.googleapis.com/youtube/v3/search?key=AIzaSyDit4KTqyLvm4GaJG44bGaR48-ltwZZnYE&q=guardianship&part=snippet&maxResults=19&order=date"
+         var text =  "https://www.googleapis.com/youtube/v3/search?key=AIzaSyAPtvfz4MTceYCpjk8KcO2HOjGEFH0AAOA&q=rocket girls 101&part=snippet&maxResults=19&order=date"
         
         //Almofireに入れる前に日本語を英語に変化する必要がある
         let url = text.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!
